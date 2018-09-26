@@ -1,0 +1,29 @@
+<div class="animated fadeIn">
+  <div class="card">
+    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h5>Día 1. Moscú panorámico</h5>
+      </button>
+      <div class="card-header-actions">
+        <a href="https://valor-software.com/ngx-bootstrap/#/collapse" target="_blank">
+          <small className="text-muted">docs</small>
+        </a>
+      </div>
+    </div>
+    <div class="card-body"
+         (collapsed)="collapsed($event)"
+         (expanded)="expanded($event)"
+         [collapse]="isCollapsed">
+         <img src="../../../assets/img/panoramico.jpg" alt="Italian Trulli" style="width:200px;height:200px;" >
+          
+      <p>
+        Entraremos a la catedral de San Basilio una de las catedrales más famosas del mundo, construida por Ivan el Terrible para conmemorar la captura de Kazan y Astrakhan en 1561. No puede decir que vino a Rusia si no visito está hermosa catedral. También conocerá la espectacular catedral de Cristo el Salvador que fue construida originalmente por el zar Alejandro II, para conmemorar la victoria sobre Napoleón en 1812. En 1931 fue destruida por Stalin y fue reconstruida con los planos originales en la decada de los noventa. 
+        Visitaremos el interior del Kremlin la antigua residencia de los zares y ahora donde reside el presidente de Rusia. Contiene cinco palacios, cuatro catedrales, las torres del kremlin, y su imponente muralla. El Kremlin junto con la plaza roja son parte de la esencia de Rusia. Desde el rio Moscú tendremos una vista panorámica de la parte posterior de la histórica muralla del Kremlin. En la parte frontal veremos el monumento al soldado desconocido y la flama eterna. 
+        </p>
+    </div>
+    <div class="card-footer">
+      Sitios: El mausoleo de Lenin, la muralla del Kremlin, la catedral de San Basilio, el principal centro comercial de Rusia “GUM”, el Museo Estatal de Historia, las puertas de la Resurrección, La Catedral de Cristo Salvador. Incluye interiores: Del Kremlin y las catedrales de San Basilio y de Cristo Salvador. 
+     
+    </div>
+  </div>
+</div>

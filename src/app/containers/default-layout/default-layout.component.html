@@ -1,0 +1,28 @@
+<app-header
+  [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/logo.png', width: 130, height: 30, alt: 'RuTransfers'}"
+  [navbarBrandMinimized]="{src: 'assets/favicon.png', width: 30, height: 30, alt: 'RuTransfers'}"
+  [sidebarToggler]="'lg'"
+  [asideMenuToggler]="'lg'">
+  
+</app-header>
+
+<div class="app-body">
+  <app-sidebar [fixed]="true" [display]="'lg'">
+    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="sidebarMinimized"></app-sidebar-nav>
+    <app-sidebar-minimizer></app-sidebar-minimizer>
+  </app-sidebar>
+  <!-- Main content -->
+  <main class="main">
+    <!-- Breadcrumb -->
+    
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div><!-- /.container-fluid -->
+  </main>
+  
+</div>
+<app-footer>
+  <span><a href="http://www.ru-transfers.com">RuTransfers</a> &copy; 2018</span>
+  
+</app-footer>

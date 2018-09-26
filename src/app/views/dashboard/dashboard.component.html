@@ -1,0 +1,88 @@
+<div class="animated fadeIn">
+  <div class="row">
+    
+          
+  </div><!--/.row-->
+
+  
+  
+  <!--/.card-->
+  <div class="row">
+    <div class="col-sm-6 col-lg-3">
+      <div class="brand-card">
+        <div class="brand-card-header bg-facebook">
+          <i class="fa fa-thermometer-half"></i>
+          <div class="chart-wrapper">
+            <canvas baseChart class="chart"
+            [datasets]="brandBoxChartData1"
+            [labels]="brandBoxChartLabels"
+            [options]="brandBoxChartOptions"
+            [colors]="brandBoxChartColours"
+            [legend]="brandBoxChartLegend"
+            [chartType]="brandBoxChartType"></canvas>
+          </div>
+        </div>
+        <div class="brand-card-body">
+          <div>
+            <div class="text-value">Temperatura en Moscú</div>
+            
+          </div>
+          <div>
+            <div class="text-value">10 &deg;C</div>
+            
+          </div>
+        </div>
+      </div>
+    </div><!--/.col-->
+    <div class="col-sm-6 col-lg-3">
+      <div class="brand-card">
+        <div class="brand-card-header bg-twitter">
+          <i class="fa fa-thermometer-half"></i>
+          <div class="chart-wrapper">
+            <canvas baseChart class="chart"
+            [datasets]="brandBoxChartData2"
+            [labels]="brandBoxChartLabels"
+            [options]="brandBoxChartOptions"
+            [colors]="brandBoxChartColours"
+            [legend]="brandBoxChartLegend"
+            [chartType]="brandBoxChartType"></canvas>
+          </div>
+        </div>
+        <div class="brand-card-body">
+          <div>
+            <div class="text-value">Tempreatura SPB</div>
+            
+          </div>
+          <div>
+            <div class="text-value">8 &deg;C</div>
+           
+          </div>
+        </div>
+      </div>
+    </div><!--/.col-->
+    
+  </div><!--/.row-->   
+  <div class="row">
+      <div class="col-sm-6 col-lg-3">
+  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="../../../assets/img/panoramico.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../../../assets/img/panoramico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div><!--row-->
+</div>
+
+  </div>
