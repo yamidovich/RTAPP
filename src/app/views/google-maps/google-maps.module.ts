@@ -12,7 +12,7 @@ import { GoogleMapsRoutingModule } from './google-maps-routing.module';
     FormsModule,
     GoogleMapsRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyASyYRBZmULmrmw_P9kgr7_266OhFNinPA'
+      apiKey: 'AIzaSyCSAkaptn0zFktVeToQzsEPm9zSf-ejlj0'
       // To use the Google Maps JavaScript API, you must register your app project on the Google API Console and get a Google API key which you can add to your app
     })
   ],
