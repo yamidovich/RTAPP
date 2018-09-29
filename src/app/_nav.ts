@@ -34,7 +34,7 @@ export const navItems = [
       },
       {
         name: 'San Petersburgo',
-        url: '/google-maps',
+        url: '/google-maps1',
         icon: 'icon-map'
       },
       

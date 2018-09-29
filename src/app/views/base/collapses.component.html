@@ -1,6 +1,6 @@
 <div class="animated fadeIn">
   <div class="card">
-    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+    <div class="card-header" (click)="isCollapsed1 = !isCollapsed1">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <h5>Día 1. Moscú panorámica. Salida del hotel: 9 am</h5>
       </button>
@@ -13,7 +13,7 @@
     <div class="card-body"
          (collapsed)="collapsed($event)"
          (expanded)="expanded($event)"
-         [collapse]="isCollapsed">
+         [collapse]="isCollapsed1">
          <img src="../../../assets/img/panoramico.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
           
       <p>
@@ -28,7 +28,7 @@
   </div>
 
   <div class="card">
-    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+    <div class="card-header" (click)="isCollapsed2 = !isCollapsed2">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <h5>Día 2. Moscú típico. Salida del hotel: 9 am</h5>
       </button>
@@ -41,7 +41,7 @@
     <div class="card-body"
          (collapsed)="collapsed($event)"
          (expanded)="expanded($event)"
-         [collapse]="isCollapsed">
+         [collapse]="isCollapsed2">
          <img src="../../../assets/img/parquedelavictoria.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
           
       <p>
@@ -54,7 +54,7 @@
     </div>
   </div>
   <div class="card">
-    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+    <div class="card-header" (click)="isCollapsed3 = !isCollapsed3">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <h5>Día 3. Moscú acuático. Salida del hotel: 10 am</h5>
       </button>
@@ -67,7 +67,7 @@
     <div class="card-body"
          (collapsed)="collapsed($event)"
          (expanded)="expanded($event)"
-         [collapse]="isCollapsed">
+         [collapse]="isCollapsed3">
          <img src="../../../assets/img/octubrerojo.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
           
       <p>

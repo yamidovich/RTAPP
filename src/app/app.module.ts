@@ -40,6 +40,7 @@ import { AppRoutingModule } from './app.routing';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { GoogleMapsModule1 } from './views/google-maps1/google-maps1.module';
 
 @NgModule({
   imports: [
@@ -54,7 +55,8 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
-    ChartsModule
+    ChartsModule,
+    GoogleMapsModule1
   ],
   declarations: [
     AppComponent,
@@ -62,7 +64,8 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     P404Component,
     P500Component,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    
   ],
   providers: [{
     provide: LocationStrategy,

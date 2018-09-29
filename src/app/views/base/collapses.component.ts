@@ -7,7 +7,9 @@ export class CollapsesComponent {
 
   constructor() { }
 
-  isCollapsed: boolean = true;
+  isCollapsed1: boolean = true;
+  isCollapsed2: boolean = true;
+  isCollapsed3: boolean = true;
 
   collapsed(event: any): void {
     // console.log(event);

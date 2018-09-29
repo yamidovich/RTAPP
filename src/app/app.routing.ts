@@ -79,6 +79,10 @@ export const routes: Routes = [
         loadChildren: './views/google-maps/google-maps.module#GoogleMapsModule'
       },
       {
+        path: 'google-maps1',
+        loadChildren: './views/google-maps1/google-maps1.module#GoogleMapsModule1'
+      },
+      {
         path: 'icons',
         loadChildren: './views/icons/icons.module#IconsModule'
       },
