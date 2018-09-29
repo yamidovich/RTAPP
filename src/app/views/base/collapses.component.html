@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-header" (click)="isCollapsed = !isCollapsed">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <h5>Día 1. Moscú panorámico</h5>
+        <h5>Día 1. Moscú panorámica. Salida del hotel: 9 am</h5>
       </button>
       <div class="card-header-actions">
         <a href="https://valor-software.com/ngx-bootstrap/#/collapse" target="_blank">
@@ -14,7 +14,7 @@
          (collapsed)="collapsed($event)"
          (expanded)="expanded($event)"
          [collapse]="isCollapsed">
-         <img src="../../../assets/img/panoramico.jpg" alt="Italian Trulli" style="width:200px;height:200px;" >
+         <img src="../../../assets/img/panoramico.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
           
       <p>
         Entraremos a la catedral de San Basilio una de las catedrales más famosas del mundo, construida por Ivan el Terrible para conmemorar la captura de Kazan y Astrakhan en 1561. No puede decir que vino a Rusia si no visito está hermosa catedral. También conocerá la espectacular catedral de Cristo el Salvador que fue construida originalmente por el zar Alejandro II, para conmemorar la victoria sobre Napoleón en 1812. En 1931 fue destruida por Stalin y fue reconstruida con los planos originales en la decada de los noventa. 
@@ -26,4 +26,58 @@
      
     </div>
   </div>
+
+  <div class="card">
+    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h5>Día 2. Moscú típico. Salida del hotel: 9 am</h5>
+      </button>
+      <div class="card-header-actions">
+        <a href="https://valor-software.com/ngx-bootstrap/#/collapse" target="_blank">
+          <small className="text-muted">docs</small>
+        </a>
+      </div>
+    </div>
+    <div class="card-body"
+         (collapsed)="collapsed($event)"
+         (expanded)="expanded($event)"
+         [collapse]="isCollapsed">
+         <img src="../../../assets/img/parquedelavictoria.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
+          
+      <p>
+        El Parque de la Victoria y el Museo de la Gran Guerra Patria son un memorial que conmemora los sacrificios de los pueblos de la Unión Soviética durante la Segunda Guerra Mundial. El obelisco en frente del museo tiene 141,8 metros de altura, que representa a los 1.418 días de la guerra. 
+        Ahora una calle peatonal, la calle antigua Arbat es una de las calles más antiguas de Rusia. Mide un poco más de un km. de longitud y hoy en dia alberga interminables tiendas de souvenirs, restaurantes y el museo Pushkin. Es uno de los paseos más atractivos para disfrutar en primavera, verano y otoño.
+      </p>
+    </div>
+    <div class="card-footer">
+      Sitios: El parque de la Victoria, museo de la Gran Guerra Patria, la iglesia San Jorge, el arco del triunfo, la calle Arbat, tiendas de souvenirs, la estatua de Pushkin, la capilla de Boris y Gleb
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" (click)="isCollapsed = !isCollapsed">
+      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h5>Día 3. Moscú acuático. Salida del hotel: 10 am</h5>
+      </button>
+      <div class="card-header-actions">
+        <a href="https://valor-software.com/ngx-bootstrap/#/collapse" target="_blank">
+          <small className="text-muted">docs</small>
+        </a>
+      </div>
+    </div>
+    <div class="card-body"
+         (collapsed)="collapsed($event)"
+         (expanded)="expanded($event)"
+         [collapse]="isCollapsed">
+         <img src="../../../assets/img/octubrerojo.jpg" alt="Italian Trulli" style="width:250px;height:200px;" >
+          
+      <p>
+          Tomaremos un crucero por el rio Moscú abordo del barco Radisson Royal. El recorrido pasará por muchos de los puntos más importantes de Moscó como el hotel Ukraina, estación de trenes Kievsky, convento Novodevichy, Universidad Estatal de Moscú, estadio Luzhniki, parque Gorky, catedral de Cristo Salvador, San Basilio, Kremlin. 
+        </p>
+    </div>
+    <div class="card-footer">
+      Hotel Ukrania, estación de trenes Kievsky, convento Novodevichy, Universidad Estatal de Moscú, estadio Luzhniki, parque Gorky, catedral de Cristo Salvador, San Basilio, Kremlin. 
+    </div>
+  </div>
 </div>
+
+
